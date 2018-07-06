@@ -1,0 +1,32 @@
+body {
+    background-color: darkcyan;
+}
+nav {
+    background-color: rgb(241, 225, 225);
+    display: flex;
+    display: -webkit-flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+nav a {
+    margin: .5em;
+    color: rgb(230, 115, 115);
+}
+nav a:hover {
+    color: red;
+}
+.img-code {
+    display:flex;
+    display:-webkit-flex;
+    justify-content: center;
+    margin: .5em;
+    width:50%;
+    height: auto;
+    overflow: hidden;
+    padding: .5em;
+    border: dotted;
+}
